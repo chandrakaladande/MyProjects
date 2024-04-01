@@ -1,0 +1,32 @@
+/* Accordion styles */
+.ui.styled.accordion {
+  width: 100%;
+}
+
+.ui.styled.accordion .title {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.ui.styled.accordion .title:hover {
+  background-color: #eaeaea;
+}
+
+.ui.styled.accordion .content {
+  background-color: #fff;
+  color: #555;
+  padding: 15px;
+  display: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.ui.styled.accordion .active.title {
+  background-color: #eaeaea;
+}
+
+.ui.styled.accordion .active.content {
+  display: block;
+}
