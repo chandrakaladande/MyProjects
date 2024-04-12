@@ -1,0 +1,29 @@
+/* SearchForm.css */
+
+.form-container {
+    margin-bottom: 20px;
+  }
+
+  .form-container input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  .form-container button {
+    width: 70px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+
+  .form-container button:hover {
+    background-color: #45a049;
+  }

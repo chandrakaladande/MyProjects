@@ -1,0 +1,30 @@
+/* RecipeList.css */
+
+.recipe-container {
+    margin-bottom: 20px;
+  }
+
+  .recipe {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .recipe h2 {
+    margin-bottom: 10px;
+  }
+
+  .recipe img {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .ingredients {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .ingredients li {
+    margin-bottom: 5px;
+  }

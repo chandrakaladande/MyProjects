@@ -1,0 +1,27 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #f7f7f7; /* Adding a light background color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto; /* Centering the container vertically */
+  padding: 20px;
+  background-color: #fff; /* Adding a white background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.loading {
+  margin-top: 20px;
+  color: #333;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+}
