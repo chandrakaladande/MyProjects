@@ -1,63 +1,84 @@
 .github-profile-container {
-    margin: 0 auto;
-    width: 90%;
-    max-width: 1000px;
-    padding: 20px;
-    border-radius: 8px;
-  }
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 8px;
+  background-color: #f8f9fa; /* Subtle background color for differentiation */
+}
 
-  .input-wrapper {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
+.input-wrapper {
+  display: flex;
+  gap: 10px; /* Reduced gap for better compactness */
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  margin-bottom: 20px;
+}
 
-  .input-wrapper input {
-    padding: 12px;
-    font-size: 16px;
-    border: none;
-  }
+.input-wrapper input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Border for better visibility */
+  border-radius: 8px;
+  outline: none; /* Remove focus outline */
+  transition: all 0.2s ease-in-out; /* Smooth transition for focus */
+}
 
-  .input-wrapper button {
-    padding: 5px 12px;
-    border: none;
-    border-radius: 8px;
-    background-color: #00f4ec;
-    color: #000;
-    cursor: pointer;
-  }
+.input-wrapper input:focus {
+  border-color: #00f4ec; /* Highlight border on focus */
+}
 
-  .user{
-      padding: 15px;
-      border-radius: 10px;
-      border: 1px solid;
-  }
+.input-wrapper button {
+  padding: 12px; /* Consistent padding with input */
+  font-size: 16px; /* Larger text size for consistency */
+  border: none;
+  border-radius: 8px;
+  background-color: #00f4ec;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
 
-  .avatar{
-      height: 150px;
-      aspect-ratio: 1/1;
-      border-radius: 50%;
-  }
+.input-wrapper button:hover {
+  background-color: #00d9d4; /* Change color on hover */
+}
 
+.user {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc; /* Light border */
+  background-color: #fff; /* White background for card-like effect */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
 
-  .name-container{
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      margin-top: 20px;
-  }
+.avatar {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
-  .name-container p{
-      margin: 0px;
-      font-size: 20px;
-      font-weight: bold;
-  }
+.name-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 
-  .profile-info div{
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      font-size: 20px;
-      font-weight: bold;
-  }
+.name-container p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-info div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
