@@ -1,0 +1,26 @@
+div{
+    width: '500px';
+    height: 'auto';
+    background-color: 'white';
+    padding: '20px';
+    margin: '0 auto';
+    border-radius: '20px';
+    text-align: 'center';
+  }
+  input{
+    border: '2px solid black';
+    width: '350px';
+    padding: '10px';
+    margin-bottom: '10px';
+  }
+  select{
+    border: '2px solid black';
+    width: '380px';
+    padding: '10px',;
+    margin-bottom: '10px';
+  }
+  button{
+    background-color: 'black';
+    color: 'white';
+    padding: '10px';
+  }
