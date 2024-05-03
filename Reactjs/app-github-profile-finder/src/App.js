@@ -4,7 +4,7 @@ import GithubProfileFinder from './Components/GithubProfileFinder';
 function App() {
   return (
     <div className="App">
-     Github profile finder
+      <h2>GitHub Profile Finder</h2>
        <GithubProfileFinder/>
     </div>
   );
